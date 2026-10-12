@@ -6,14 +6,14 @@
 
 ---
 
-## TL;DR for recruiters
+## Porject Overview
 
 | | |
 |---|---|
 | **Problem** | LLMs invent answers when they lack context. For course notes or internal docs, a wrong answer is worse than no answer. |
 | **Solution** | Retrieve the most relevant passages with semantic search; answer only if a passage passes a similarity threshold, otherwise refuse explicitly. |
 | **Constraints I designed for** | No GPU, no paid API: every model runs locally on CPU. |
-| **Skills shown** | NLP / information retrieval, vector databases, API design, automated testing, CI, Docker, and honest documentation of limits. |
+| **Skills** | NLP / information retrieval, vector databases, API design, automated testing, CI, Docker, and honest documentation of limits. |
 
 ---
 
@@ -118,7 +118,7 @@ docker run -p 8000:8000 rag-assistant
 
 ---
 
-## Skills demonstrated
+## Skills
 
 **ML / NLP**: embeddings, semantic search, retrieval-augmented generation, hallucination mitigation
 **Backend**: FastAPI, REST design
